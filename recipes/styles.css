@@ -2,15 +2,23 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-	color: red;
-}
-
-h3 {
-	color: blue;
-}
-
-img {
+.main-container {
 	height: auto;
-	width: 200px;
+	margin: 0 auto;
+	width: 700px;
+	> h1 {
+		color: red;
+	}
+	
+	> h3 {
+		color: blue;
+	}
+	.image-container {
+		width: 200px;
+		margin: 0 auto;
+		> img {
+			height: auto;
+			width: 200px;
+		}
+	}
 }
